@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Kalvin Baranga — Software Engineer specializing in AppSec &amp; DevSecOps. Building robust, logic-driven applications with security integrated into the SDLC.">
+<meta name="keywords" content="Software Engineer, AppSec, DevSecOps, Application Security, Full-Stack Developer, CI/CD automation, C#, Java, Python, JavaScript, MySQL, Threat Modeling">
+<meta name="author" content="Kalvin Baranga">
+<meta property="og:title" content="Kalvin Baranga — Software Engineer &amp; AppSec Specialist">
+<meta property="og:description" content="I build robust full-stack applications and design automated, hardened security workflows directly into modern CI/CD pipelines.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="[YOUR_URL_HERE]">
+<title>Kalvin Baranga — Software Engineer | AppSec &amp; DevSecOps</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+</head>
+<body class="antialiased">
+<header class="site-header">
+  <nav class="nav-container max-w-6xl mx-auto px-6" aria-label="Main navigation">
+    <a href="#hero" class="font-display font-bold text-xl tracking-tight relative z-10" style="text-decoration: none;">
+      <span style="color: var(--text-primary);">Kalvin</span><span class="text-accent font-bold" style="color: var(--accent);"> Baranga</span>
+    </a>
+    <ul class="nav-list flex items-center gap-8 text-sm" role="list">
+      <li><a href="#focus"    class="nl">Focus</a></li>
+      <li><a href="#work"     class="nl">Projects</a></li>
+      <li><a href="#about"    class="nl">About</a></li>
+      <li><a href="#reviews"  class="nl">Endorsements</a></li>
+      <li><a href="#blog"     class="nl">Insights</a></li>
+      <li><a href="#contact"  class="nl">Contact</a></li>
+    </ul>
+    <div class="flex items-center gap-3">
+      <!-- Dark/Light Theme Persistence Switch -->
+      <button id="theme-toggle" class="btn btn-secondary" style="padding: 0.5rem; width: 2.25rem; height: 2.25rem; display: flex; align-items: center; justify-content: center;" aria-label="Toggle theme">
+        <svg class="light-icon" style="width: 1rem; height: 1rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        <svg class="dark-icon" style="width: 1rem; height: 1rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"/></svg>
+      </button>
+      <a href="#contact" class="btn btn-shimmer" style="display: none; padding: 0.5rem 1.25rem;">
+        Let's Connect <svg style="width: 0.85rem; height: 0.85rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+      
+      <script>
+        // Inline layout renderer
+        document.write(window.innerWidth >= 768 ? '<a href="#contact" class="btn btn-shimmer">Let\'s Connect <svg style="width: 0.85rem; height: 0.85rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>' : '');
+      </script>
+      <button id="mobile-menu-toggle" class="btn btn-secondary md:hidden" style="padding: 0.5rem; width: 2.25rem; height: 2.25rem; display: flex; align-items: center; justify-content: center;" aria-expanded="false" aria-label="Toggle menu">
+        <svg style="width: 1rem; height: 1rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <!-- Mobile Dropdown Menu -->
+  <div id="mobile-menu" class="md:hidden">
+    <ul role="list">
+      <li><a href="#focus">Focus</a></li>
+      <li><a href="#work">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reviews">Endorsements</a></li>
+      <li><a href="#blog">Insights</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li style="padding-top: 0.5rem; border-top: 1px solid var(--border);">
+        <a href="#contact" class="btn btn-shimmer" style="display: inline-flex; width: 100%; justify-content: center; padding: 0.6rem 0;">Get in touch →</a>
+      </li>
+    </ul>
+  </div>
+</header>
+<main>
+<!-- Hero Section -->
+<section id="hero" class="hero-section">
+  <div class="max-w-6xl mx-auto px-6 py-24 w-full">
+    <div class="hero-grid">
+      <div class="hero-text-col">
+        <p class="reveal text-xs font-semibold text-accent tracking-widest uppercase" style="margin-bottom: 1rem;">ENGINEERING SECURE SOFTWARE</p>
+        <h1 class="reveal d1 font-display font-bold text-5xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tight" style="margin-bottom: 1.5rem;">
+          Hi, I'm <span class="text-accent font-bold">Kalvin</span>
+        </h1>
+        <p class="reveal d2 text-lg md:text-xl font-light leading-relaxed max-w-md" style="margin-bottom: 2.5rem; color: var(--text-secondary);">
+          A <strong class="font-medium" style="color: var(--text-primary);">Software Engineer</strong> specializing in <strong class="font-medium" style="color: var(--text-primary);">AppSec &amp; DevSecOps</strong>. I build robust, logic-driven applications and bake defensive mechanisms straight into modern CI/CD pipelines.
+        </p>
+        <div class="reveal d3 flex" style="flex-wrap: wrap; gap: 1rem;">
+          <a href="#work" class="btn btn-primary shimmer text-sm font-semibold" style="padding: 0.85rem 1.75rem;">
+            Explore Repositories
+            <svg style="width: 1rem; height: 1rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary text-sm font-semibold" style="padding: 0.85rem 1.75rem;">Review Architecture</a>
+        </div>
+        <div class="reveal d4 hero-stats">
+          <div><p class="font-display font-bold text-3xl">4</p><p class="text-xs mt-1" style="color: var(--text-secondary);">Core Languages</p></div>
+          <div><p class="font-display font-bold text-3xl">100%</p><p class="text-xs mt-1" style="color: var(--text-secondary);">Pipeline Automation</p></div>
+          <div><p class="font-display font-bold text-3xl">AppSec</p><p class="text-xs mt-1" style="color: var(--text-secondary);">Lifecycle Driven</p></div>
+        </div>
+      </div>
+      <!-- Original Profile Photo Layout -->
+      <div class="hero-image-col reveal d2">
+        <div class="pf-hero-wrapper">
+          <div class="pf" style="width: 100%; height: 100%; border-radius: 1.5rem;">
+            <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&q=80" alt="Kalvin Baranga — Secure Systems Development" loading="eager">
+          </div>
+          <div class="pf-hero-banner">Hardening Codebases</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Focus Section -->
+<section id="focus" class="py-24" style="background-color: var(--bg-body-secondary); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="mb-14" style="margin-bottom: 3.5rem;">
+      <p class="reveal text-xs font-semibold text-accent tracking-widest uppercase" style="margin-bottom: 0.75rem;">Core Pillars</p>
+      <h2 class="reveal d1 font-display font-bold text-4xl md:text-5xl">Technical Capabilities</h2>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <article class="reveal d1 card-h group focus-card">
+        <div class="focus-card-icon">
+          <svg style="width: 1.5rem; height: 1.5rem; color: var(--accent);" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+        </div>
+        <h3 class="font-display font-bold text-xl" style="margin-bottom: 0.75rem;">Full-Stack Engineering</h3>
+        <p class="text-sm font-light leading-relaxed">Building logic-driven software across modern systems. Crafting responsive UIs with HTML/CSS/JavaScript, and structured backends utilizing C#, Java, or Python interacting with robust MySQL databases.</p>
+      </article>
+      <!-- Highlighted Card -->
+      <article class="reveal d2 card-h group focus-card focus-card-highlighted">
+        <div class="focus-card-icon">
+          <svg style="width: 1.5rem; height: 1.5rem; color: var(--accent);" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <h3 class="font-display font-bold text-xl" style="margin-bottom: 0.75rem;">Application Security (AppSec)</h3>
+        <p class="text-sm font-light leading-relaxed">Hunting logical bugs and architecture flaws during implementation. Performing proactive penetration testing via targeted SQL injection payloads, threat assessments, endpoint hardening, and deep packet captures using Wireshark.</p>
+      </article>
+      <article class="reveal d3 card-h group focus-card">
+        <div class="focus-card-icon">
+          <svg style="width: 1.5rem; height: 1.5rem; color: var(--accent);" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+        </div>
+        <h3 class="font-display font-bold text-xl" style="margin-bottom: 0.75rem;">DevSecOps &amp; Automation</h3>
+        <p class="text-sm font-light leading-relaxed">Shifting security completely left. Aiming to fully automate code scanning, integrity constraints, and threat validations natively into production CI/CD workflows so code stays protected as it is built.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- Selected Work Section -->
+<section id="work" class="py-24">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="flex" style="flex-direction: column; gap: 1rem; margin-bottom: 3.5rem;">
+      <script>
+        document.write(window.innerWidth >= 640 ? '<div class="flex justify-between items-end" style="width: 100%;"><div><p class="reveal text-xs font-semibold text-accent tracking-widest uppercase" style="margin-bottom: 0.75rem;">Portfolio</p><h2 class="reveal d1 font-display font-bold text-4xl md:text-5xl">Selected Work</h2></div><a href="#" class="reveal d1 text-sm font-medium nl" style="color: var(--text-secondary);">All Repositories →</a></div>' : '<div><p class="reveal text-xs font-semibold text-accent tracking-widest uppercase" style="margin-bottom: 0.75rem;">Portfolio</p><h2 class="reveal d1 font-display font-bold text-4xl">Selected Work</h2></div>');
+      </script>
+    </div>
+    <div class="project-showcase-grid">
+      <article class="card-h reveal d1 group project-card row-span-2 flex flex-col justify-between">
+        <div>
+          <div class="pf project-image-large">
+            <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=900&q=80" alt="Finance Queue Management System Architecture" loading="lazy">
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag-accent">System Architecture</span>
+              <span class="tag-standard">Python</span>
+              <span class="tag-standard">MySQL</span>
+              <span class="tag-standard">AppSec</span>
+            </div>
+            <h3 class="font-display font-bold text-2xl mb-3">Finance Queue Management System (VQMS)</h3>
+            <p class="text-sm font-light leading-relaxed mb-5" style="margin-bottom: 1.25rem;">
+              A comprehensive mobile application platform designed to model, optimize, and safely streamline workflow traffic and real-world high-friction operations inside financial institution ecosystems.<br><br>
+              Built using a resilient structured backend, this project explicitly details robust access controls, transaction boundaries, and a hardened system architecture to protect transactional data flow against manipulation and logical configuration faults.
+            </p>
+          </div>
+        </div>
+        <div class="project-content" style="padding-top: 0;">
+          <a href="#" class="inline-flex items-center gap-1.5 text-sm font-semibold nl" style="color: var(--text-primary);">Explore Repository <svg style="width: 0.85rem; height: 0.85rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        </div>
+      </article>
+      <article class="card-h reveal d2 group project-card flex flex-col justify-between">
+        <div>
+          <div class="pf project-image">
+            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80" alt="Knowledge Based Systems Engineering" loading="lazy">
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag-accent">Intelligent Logic</span>
+              <span class="tag-standard">Java / Python</span>
+            </div>
+            <h3 class="font-display font-bold text-xl mb-2">Knowledge-Based Inference Engines</h3>
+            <p class="text-sm font-light leading-relaxed">Implementing reasoning frameworks and semantic network diagrams to parse complicated logic matrices. Explores how backend components translate strict rule models into predictive decision vectors.</p>
+          </div>
+        </div>
+        <div class="project-content" style="padding-top: 0;">
+          <a href="#" class="inline-flex items-center gap-1.5 text-sm font-semibold nl" style="color: var(--text-primary);">Explore Blueprint →</a>
+        </div>
+      </article>
+      <article class="card-h reveal d3 group project-card flex flex-col justify-between">
+        <div>
+          <div class="pf project-image">
+            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80" alt="AppSec Pipeline Playground" loading="lazy">
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag-accent">DevSecOps</span>
+              <span class="tag-standard">CI/CD Automation</span>
+            </div>
+            <h3 class="font-display font-bold text-xl mb-2">AppSec Testing Lab &amp; Wire Capture</h3>
+            <p class="text-sm font-light leading-relaxed">A showcase of defensive scripts mapping network diagnostics through Wireshark, capturing deep packet patterns, testing SQL injection blocks, and implementing secure coding lint rules natively into build routines.</p>
+          </div>
+        </div>
+        <div class="project-content" style="padding-top: 0;">
+          <a href="#" class="inline-flex items-center gap-1.5 text-sm font-semibold nl" style="color: var(--text-primary);">View Pipeline Config →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- About Section -->
+<section id="about" class="py-24" style="background-color: var(--bg-body-secondary); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="about-grid">
+      <div class="reveal flex justify-center" style="margin-bottom: 2rem;">
+        <div class="pf w-full aspect-square max-w-sm rounded-3xl" style="height: auto;">
+          <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=700&q=80" alt="Defensive Engineering Context" loading="lazy">
+        </div>
+      </div>
+      <div>
+        <p class="reveal text-xs font-semibold text-accent tracking-widest uppercase" style="margin-bottom: 0.75rem;">Engineering Thesis</p>
+        <h2 class="reveal d1 font-display font-bold text-4xl md:text-5xl leading-tight" style="margin-bottom: 1.5rem;">Baking Security<br>Into the Logic Layer</h2>
+        <p class="reveal d2 font-light leading-relaxed mb-4" style="margin-bottom: 1rem; color: var(--text-secondary);">
+          I am a Software Engineering student specializing heavily in Application Security (AppSec) and DevSecOps workflows. My focus balances building fast, resilient systems using full-stack standard configurations with an uncompromising commitment to isolating flaws across the entire Software Development Life Cycle (SDLC).
+        </p>
+        <p class="reveal d3 font-light leading-relaxed mb-8" style="margin-bottom: 2rem; color: var(--text-secondary);">
+          Whether chasing down logic exceptions in a custom C# application, engineering Java inference platforms over structured MySQL, or orchestrating automated security scanners within a live pipeline, I work to uncover issues before they reach a production container. Timing, structural defenses, and continuous integration are everything.
+        </p>
+        <div class="reveal d4">
+          <p class="text-xs font-semibold uppercase tracking-widest" style="color: var(--text-muted); margin-bottom: 0.85rem;">The Tactical Ecosystem</p>
+          <div class="flex" style="flex-wrap: wrap; gap: 0.5rem;" role="list" aria-label="Skills">
+            <span role="listitem" class="stag font-mono">C#</span>
+            <span role="listitem" class="stag font-mono">Java</span>
+            <span role="listitem" class="stag font-mono">Python</span>
+            <span role="listitem" class="stag font-mono">JavaScript</span>
+            <span role="listitem" class="stag font-mono">MySQL</span>
+            <span role="listitem" class="stag font-mono">Wireshark</span>
+            <span role="listitem" class="stag">AppSec</span>
+            <span role="listitem" class="stag">DevOps</span>
+            <span role="listitem" class="stag">CI/CD Automation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Reviews Section -->
+<section id="reviews" class="py-24">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="mb-14" style="margin-bottom: 3.5rem;">
+      <p class="reveal text-xs font-semibold text-accent tracking-widest uppercase" style="margin-bottom: 0.75rem;">Evaluations</p>
+      <h2 class="reveal d1 font-display font-bold text-4xl md:text-5xl">Peer &amp; Advisor Feedback</h2>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <blockquote class="reveal d1 review-card flex flex-col justify-between">
+        <div>
+          <div class="review-bars" aria-label="5 integrity bars">
+            <span class="review-bar"></span><span class="review-bar"></span><span class="review-bar"></span><span class="review-bar"></span><span class="review-bar"></span>
+          </div>
+          <!-- <p class="text-sm leading-relaxed mb-6 font-light italic" style="margin-bottom: 1.5rem;">"Kalvin approaches backend problems with a security mindset that's rare for peers. During our team system implementations, he systematically hunted logic flaws and injected input sanitization controls into our stack long before validation phase."</p> -->
+        </div>
+        <footer class="flex items-center gap-3" style="border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 0.5rem;">
+          <!--<div class="pf w-9 h-9 rounded-full shrink-0"><img src="https://i.pravatar.cc/80?img=11" alt="Academic Project Lead" loading="lazy"></div>
+          <div>
+            <p class="font-semibold text-sm">Senior Peer Developer</p>
+            <p class="text-xs" style="color: var(--text-muted);">Systems Lab Collaborator</p>
+          </div>-->
+        </footer>
+      </blockquote>
+      <!-- Highlighted review -->
+      <blockquote class="reveal d2 review-card review-card-highlighted flex flex-col justify-between">
+        <div>
+          <div class="review-bars" aria-label="5 evaluation metrics">
+            <span class="review-bar"></span><span class="review-bar"></span><span class="review-bar"></span><span class="review-bar"></span><span class="review-bar"></span>
+          </div>
+          <!--<p class="text-sm leading-relaxed mb-6 font-light italic" style="margin-bottom: 1.5rem;">"He managed to turn a standard queue scheduling architecture concept into an explicitly hardened web framework demonstration. Zero friction tracking code flaws, perfect compliance under mock vulnerability challenges."</p> -->
+        </div>
+        <footer class="flex items-center gap-3" style="border-top: 1px solid var(--border-card-highlighted); padding-top: 1rem; margin-top: 0.5rem;">
+          <!--<div class="pf w-9 h-9 rounded-full shrink-0"><img src="https://i.pravatar.cc/80?img=52" alt="Technical Advisor Evaluation" loading="lazy"></div>
+          <div>
+            <p class="font-semibold text-sm">Project Evaluator</p>
+            <p class="text-xs" style="color: var(--text-muted);">Advanced Applied Projects</p>
+          </div>-->
+        </footer>
+      </blockquote>
+      <blockquote class="reveal d3 review-card flex flex-col justify-between">
+        <div>
+          <div class="review-bars" aria-label="5 automation metrics">
+            <span class="review-bar"></span><span class="review-bar"></span><span class="review-bar"></span><span class="review-bar"></span><span class="review-bar"></span>
+          </div>
+          <!--<p class="text-sm leading-relaxed mb-6 font-light italic" style="margin-bottom: 1.5rem;">"Kalvin looks at code blocks through an adversarial lens. He isn't happy with full-stack programs simply compiling smoothly—he goes the extra mile isolating packet headers via Wireshark and ensuring security scales inside the pipeline itself."</p>  -->
+        </div>
+        <footer class="flex items-center gap-3" style="border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 0.5rem;">
+          <!--<div class="pf w-9 h-9 rounded-full shrink-0"><img src="https://i.pravatar.cc/80?img=47" alt="Engineering Advisor" loading="lazy"></div>
+          <div>
+            <p class="font-semibold text-sm">Technical Mentor</p>
+            <p class="text-xs" style="color: var(--text-muted);">AppSec Focus Group</p>
+          </div>-->
+        </footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+<!-- Blog Section 
+<section id="blog" class="py-24 bg-slate-100/50" style="background-color: var(--bg-body-secondary); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="flex" style="flex-direction: column; gap: 1rem; margin-bottom: 3.5rem;">
+      <script>
+        document.write(window.innerWidth >= 640 ? '<div class="flex justify-between items-end" style="width: 100%;"><div><p class="reveal text-xs font-semibold text-accent tracking-widest uppercase" style="margin-bottom: 0.75rem;">Technical Logs</p><h2 class="reveal d1 font-display font-bold text-4xl md:text-5xl">From the Lab Notes</h2></div><a href="#" class="reveal d1 text-sm font-medium nl" style="color: var(--text-secondary);">All Research Notes →</a></div>' : '<div><p class="reveal text-xs font-semibold text-accent tracking-widest uppercase" style="margin-bottom: 0.75rem;">Technical Logs</p><h2 class="reveal d1 font-display font-bold text-4xl">From the Lab Notes</h2></div>');
+      </script>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <article class="reveal d1 card-h group blog-card flex flex-col justify-between">
+        <div>
+          <div class="pf blog-image" style="border-bottom: 1px solid var(--border);">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=700&q=80" alt="Code analysis metrics" loading="lazy">
+          </div>
+          <div class="blog-content">
+            <div class="project-tags">
+              <span class="tag-accent" style="font-size: 11px;">DevSecOps</span>
+              <span class="text-xs" style="color: var(--text-muted); align-self: center;">June 2026</span>
+            </div>
+            <h3 class="font-display font-bold text-lg mb-2">Automating Security Profiles Inside Modern CI/CD Workflows</h3>
+            <p class="text-sm font-light leading-relaxed">Shifting security checks to compile time. A manual on orchestrating automated vulnerability checks natively inside execution loops.</p>
+          </div>
+        </div>
+        <div class="blog-content" style="padding-top: 0;">
+          <a href="#" class="inline-flex items-center gap-1.5 text-sm font-semibold nl" style="color: var(--text-primary);">Read log entries →</a>
+        </div>
+      </article>
+      <article class="reveal d2 card-h group blog-card flex flex-col justify-between">
+        <div>
+          <div class="pf blog-image" style="border-bottom: 1px solid var(--border);">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=700&q=80" alt="Network architecture monitoring" loading="lazy">
+          </div>
+          <div class="blog-content">
+            <div class="project-tags">
+              <span class="tag-accent" style="font-size: 11px;">Network Diagnostics</span>
+              <span class="text-xs" style="color: var(--text-muted); align-self: center;">May 2026</span>
+            </div>
+            <h3 class="font-display font-bold text-lg mb-2">Deep Packet Analysis: Hardening Endpoints with Wireshark</h3>
+            <p class="text-sm font-light leading-relaxed">Isolating system interactions under testing. Mapping data structures, monitoring traffic flows, and blocking unauthorized payloads.</p>
+          </div>
+        </div>
+        <div class="blog-content" style="padding-top: 0;">
+          <a href="#" class="inline-flex items-center gap-1.5 text-sm font-semibold nl" style="color: var(--text-primary);">Read log entries →</a>
+        </div>
+      </article>
+      <article class="reveal d3 card-h group blog-card flex flex-col justify-between">
+        <div>
+          <div class="pf blog-image" style="border-bottom: 1px solid var(--border);">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=700&q=80" alt="Logic modeling layout" loading="lazy">
+          </div>
+          <div class="blog-content">
+            <div class="project-tags">
+              <span class="tag-accent" style="font-size: 11px;">AppSec</span>
+              <span class="text-xs" style="color: var(--text-muted); align-self: center;">April 2026</span>
+            </div>
+            <h3 class="font-display font-bold text-lg mb-2">Defending Database Integrity: Mitigating SQL Injection vectors</h3>
+            <p class="text-sm font-light leading-relaxed">Tracing flaws inside structural database layers. Why runtime parameter bounds matter more than perimeter application firewalls.</p>
+          </div>
+        </div>
+        <div class="blog-content" style="padding-top: 0;">
+          <a href="#" class="inline-flex items-center gap-1.5 text-sm font-semibold nl" style="color: var(--text-primary);">Read log entries →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>-->
+<!-- Contact Section -->
+<section id="contact" class="py-24">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="contact-container">
+      <div class="absolute top-0 right-0 w-64 h-64 rounded-full blur-3xl pointer-events-none" style="background-color: rgba(255, 107, 43, 0.2);" aria-hidden="true"></div>
+      <div class="absolute bottom-0 left-0 w-40 h-40 rounded-full blur-2xl pointer-events-none" style="background-color: rgba(255, 107, 43, 0.1);" aria-hidden="true"></div>
+      <div class="contact-grid relative z-10">
+        <div>
+          <p class="reveal text-xs font-semibold text-accent tracking-widest uppercase" style="margin-bottom: 0.75rem;">Communications</p>
+          <h2 class="reveal d1 font-display font-bold text-4xl md:text-5xl leading-tight" style="color: #ffffff; margin-bottom: 1.25rem;">Let's Talk Security<br>&amp; Architecture</h2>
+          <p class="reveal d2 font-light leading-relaxed" style="color: #a1a1aa; margin-bottom: 2rem;">I'm open to discussing secure software engineering tracks, DevSecOps pipelines, system threats, or core application roles. Reach out to coordinate architectures.</p>
+          <div class="reveal d3 flex" style="flex-direction: column; gap: 1rem;">
+            <a href="mailto:your.email@domain.com" class="contact-link-item">
+              <span class="contact-icon-box">
+                <svg style="width: 1rem; height: 1rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </span>
+              <span class="text-sm font-light">your.email@domain.com</span>
+            </a>
+            <a href="https://linkedin.com/in/your-profile" rel="noopener noreferrer" target="_blank" class="contact-link-item">
+              <span class="contact-icon-box">
+                <svg style="width: 1rem; height: 1rem;" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </span>
+              <span class="text-sm font-light">linkedin.com/in/kalvin-baranga</span>
+            </a>
+            <a href="https://github.com/your-username" rel="noopener noreferrer" target="_blank" class="contact-link-item">
+              <span class="contact-icon-box">
+                <svg style="width: 1rem; height: 1rem;" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </span>
+              <span class="text-sm font-light">github.com/your-username</span>
+            </a>
+          </div>
+        </div>
+        <div class="reveal d2 w-full">
+          <form action="#" method="POST" novalidate>
+            <div class="form-grid">
+              <div class="form-row-2">
+                <div style="margin-bottom: 1rem;">
+                  <label for="fname" class="block text-xs font-semibold text-slate-400" style="margin-bottom: 0.4rem;">Identity / Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="fname" class="form-input" name="name" placeholder="Jane Smith" required autocomplete="name">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                  <label for="femail" class="block text-xs font-semibold text-slate-400" style="margin-bottom: 0.4rem;">Return Email <span aria-hidden="true">*</span></label>
+                  <input type="email" id="femail" class="form-input" name="email" placeholder="jane@company.com" required autocomplete="email">
+                </div>
+              </div>
+              <div style="margin-bottom: 1rem;">
+                <label for="fsubject" class="block text-xs font-semibold text-slate-400" style="margin-bottom: 0.4rem;">Subject Matrix</label>
+                <input type="text" id="fsubject" class="form-input" name="subject" placeholder="Pipeline automation/AppSec inquiry">
+              </div>
+              <div style="margin-bottom: 1.25rem;">
+                <label for="fmessage" class="block text-xs font-semibold text-slate-400" style="margin-bottom: 0.4rem;">Message / Requirements <span aria-hidden="true">*</span></label>
+                <textarea id="fmessage" class="form-input" name="message" rows="4" placeholder="Detail system parameters or project scope..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-shimmer text-sm font-bold py-3.5" style="width: 100%; justify-content: center; border-radius: 0.75rem;">
+                Initialize Pipeline Communication →
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="border-t border-slate-200/50 dark:border-slate-800/40 bg-slate-100/30 transition-colors" style="background-color: var(--bg-body-secondary); border-top: 1px solid var(--border);">
+  <div class="max-w-6xl mx-auto px-6 py-8 footer-container">
+    <p class="text-sm" style="color: var(--text-muted);">© <span id="yr"></span> Kalvin Baranga. All rights reserved. <br> Core Architecture by <a href="https://lbegey78.gumroad.com/" target="_blank" class="font-bold hover:text-accent transition-colors" style="text-decoration: none; color: inherit;">Laurent Begey</a></p>
+    <p class="text-xs" style="color: var(--text-muted);">Built with
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" rel="noopener noreferrer" target="_blank" class="hover:text-accent transition-colors font-mono" style="text-decoration: none; color: inherit;">HTML</a>,
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="noopener noreferrer" target="_blank" class="hover:text-accent transition-colors font-mono" style="text-decoration: none; color: inherit;">CSS</a>,
+      &amp;
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noopener noreferrer" target="_blank" class="hover:text-accent transition-colors font-mono" style="text-decoration: none; color: inherit;">JavaScript</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>
