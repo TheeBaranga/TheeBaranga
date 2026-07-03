@@ -4,6 +4,13 @@ kalvin@github:~$ whoami
 Hi 👋, I'm Kalvin Baranga
 </h1>
 
+```text
+OS        : Software Engineering
+Location  : Nairobi, Kenya
+Status    : Available for Internship
+Focus     : Full-Stack Development → Application Security
+```
+
 <h3 align="center">
 Software Engineering Student • Full-Stack Developer • Building Secure Software
 </h3>
@@ -84,14 +91,15 @@ kalvin@github:~/projects$ ls
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| 🛒 **JavaScript Amazon** | A feature-rich Amazon clone with cart management, checkout flow, order tracking, OOP concepts and testing. | JavaScript • HTML • CSS |
-| 🔒 **Secure Portfolio** | My modern React portfolio focused on clean UI, security mindset, and professional branding. *(Currently building)* | React • Vite • Tailwind |
-| 👟 **XoX Store** | Website built for my own shoe business, bringing a real-world idea online. | HTML • CSS • JavaScript |
-| ▶️ **YouTube Frontend Clone** | One of my earliest projects that sparked my frontend development journey. | HTML • CSS |
+|  **JavaScript Amazon** | A feature-rich Amazon clone with cart management, checkout flow, order tracking, OOP concepts and testing. | JavaScript • HTML • CSS |
+|  **Secure Portfolio** | My modern React portfolio focused on clean UI, security mindset, and professional branding. *(Currently building)* | React • Vite • Tailwind |
+|  **XoX Store** | Website built for my own shoe business, bringing a real-world idea online. | HTML • CSS • JavaScript |
+| ▶ **YouTube Frontend Clone** | One of my earliest projects that sparked my frontend development journey. | HTML • CSS |
 
 
-## > git status
-
+```bash
+kalvin@github:~$ git status
+```
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=TheeBaranga&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
   <img height="170" src="https://streak-stats.demolab.com?user=TheeBaranga&theme=tokyonight&hide_border=true"/>
@@ -103,8 +111,9 @@ kalvin@github:~/projects$ ls
 
 
 
-## > cat philosophy.md
-
+```bash
+kalvin@github:~$ cat philosophy.md
+```
 ```text
 Software should solve real problems.
 
@@ -116,23 +125,20 @@ Every project I build is another step toward creating software
 that people can trust.
 ```
 
-## > contact --social
+
 
 ```bash
 kalvin@github:~$ contact --social
-GitHub      → https://github.com/TheeBaranga
-LinkedIn    → https://linkedin.com/in/kalvinbaranga
-Portfolio   →
 
-```text
+GitHub      : github.com/TheeBaranga
+LinkedIn    : linkedin.com/in/kalvinbaranga
+Portfolio   :
+
 Status
-
 ████████░░░░░░░ 55%
-
 Building...
-```
 
-Email       → kalvinkiprop@gmail.com
+Email       : kalvinkiprop@gmail.com
 ```
 
 ---
