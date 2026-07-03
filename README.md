@@ -1,3 +1,5 @@
+kalvin@github:~$ whoami
+
 <h1 align="center">
 Hi 👋, I'm Kalvin Baranga
 </h1>
@@ -12,12 +14,12 @@ Software Engineering Student • Full-Stack Developer • Building Secure Softwa
 
 
 <p align="center">
-<img src="[YOUR_BANNER_URL_HERE](https://www.linkedin.com/in/kalvin-baranga-2b66ba2b0/overlay/background-photo/)"/>
+
 </p>
 
 
 
-## > whoami
+kalvin@github:~$ whoami
 
 > Third-Year Software Engineering Student @ USIU-Africa
 
@@ -25,12 +27,12 @@ Software Engineering Student • Full-Stack Developer • Building Secure Softwa
 
 > Exploring Application Security & DevSecOps
 
-> Interested in secure software engineering
+> Building software today, with a focus on secure software engineering tomorrow
 
 > Based in Nairobi, Kenya
 
 
-## > tech-stack
+
 
 ```text
 kalvin@github:~/skills$ tree
@@ -50,8 +52,8 @@ Frontend
 
 Backend
 ├── Django
-├── MySQL
-└── REST APIs
+├── REST APIs
+└── MySQL
 
 Tools
 ├── Git
@@ -68,3 +70,75 @@ Currently Exploring
 └── DevSecOps
 ```
 
+
+
+
+```bash
+kalvin@github:~/projects$ ls
+
+01-javascript-amazon/
+02-secure-portfolio/
+03-xox-store/
+04-youtube-clone/
+```
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| 🛒 **JavaScript Amazon** | A feature-rich Amazon clone with cart management, checkout flow, order tracking, OOP concepts and testing. | JavaScript • HTML • CSS |
+| 🔒 **Secure Portfolio** | My modern React portfolio focused on clean UI, security mindset, and professional branding. *(Currently building)* | React • Vite • Tailwind |
+| 👟 **XoX Store** | Website built for my own shoe business, bringing a real-world idea online. | HTML • CSS • JavaScript |
+| ▶️ **YouTube Frontend Clone** | One of my earliest projects that sparked my frontend development journey. | HTML • CSS |
+
+
+## > git status
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=TheeBaranga&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
+  <img height="170" src="https://streak-stats.demolab.com?user=TheeBaranga&theme=tokyonight&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheeBaranga&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+
+
+
+## > cat philosophy.md
+
+```text
+Software should solve real problems.
+
+Good software is reliable.
+
+Great software is secure.
+
+Every project I build is another step toward creating software
+that people can trust.
+```
+
+## > contact --social
+
+```bash
+kalvin@github:~$ contact --social
+GitHub      → https://github.com/TheeBaranga
+LinkedIn    → https://linkedin.com/in/kalvinbaranga
+Portfolio   →
+
+```text
+Status
+
+████████░░░░░░░ 55%
+
+Building...
+```
+
+Email       → kalvinkiprop@gmail.com
+```
+
+---
+
+```bash
+
+kalvin@github:~$ █
+
+```
