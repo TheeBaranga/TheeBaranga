@@ -1,4 +1,3 @@
-kalvin@github:~$ whoami
 
 <h1 align="center">
 Hi 👋, I'm Kalvin Baranga
