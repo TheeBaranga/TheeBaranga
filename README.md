@@ -25,23 +25,21 @@ Software Engineering Student • Full-Stack Developer • Building Secure Softwa
 
 
 
-kalvin@github:~$ whoami
+❯ whoami
 
-> Third-Year Software Engineering Student @ USIU-Africa
+Third-Year Software Engineering Student @ USIU-Africa
 
-> Building reliable full-stack applications
+• Building modern full-stack applications
 
-> Exploring Application Security & DevSecOps
+• Exploring Application Security & DevSecOps
 
-> Building software today, with a focus on secure software engineering tomorrow
-
-> Based in Nairobi, Kenya
+• Based in Nairobi, Kenya
 
 
 
 
 ```text
-kalvin@github:~/skills$ tree
+❯ skills
 
 Languages
 ├── Java
@@ -80,7 +78,7 @@ Currently Exploring
 
 
 ```bash
-kalvin@github:~/projects$ ls
+❯ projects
 
 01-javascript-amazon/
 02-secure-portfolio/
@@ -96,12 +94,22 @@ kalvin@github:~/projects$ ls
 | ▶ **YouTube Frontend Clone** | One of my earliest projects that sparked my frontend development journey. | HTML • CSS |
 
 
+```bash
+kalvin@github:~$ git status
+```
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=TheeBaranga&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
+  <img height="170" src="https://streak-stats.demolab.com?user=TheeBaranga&theme=tokyonight&hide_border=true"/>
+</p>
 
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheeBaranga&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
 
 
 
 ```bash
-kalvin@github:~$ cat philosophy.md
+❯ philosophy
 ```
 ```text
 Software should solve real problems.
@@ -117,7 +125,7 @@ that people can trust.
 
 
 ```bash
-kalvin@github:~$ contact --social
+❯ contact --social
 
 GitHub      : github.com/TheeBaranga
 LinkedIn    : linkedin.com/in/kalvinbaranga
@@ -128,12 +136,4 @@ Status
 Building...
 
 Email       : kalvinkiprop@gmail.com
-```
-
----
-
-```bash
-
-kalvin@github:~$ █
-
 ```
