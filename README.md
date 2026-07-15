@@ -116,11 +116,6 @@ that people can trust.
 
 GitHub      : github.com/TheeBaranga
 LinkedIn    : linkedin.com/in/kalvinbaranga
-Portfolio   :
-
-Status
-████████░░░░░░░ 55%
-Building...
-
+Portfolio   :  https://theebaranga.github.io/secure-portfolio/
 Email       : kalvinkiprop@gmail.com
 ```
