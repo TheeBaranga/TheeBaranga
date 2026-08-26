@@ -6,12 +6,12 @@ Hi 👋, I'm Kalvin Baranga
 ```text
 OS        : Software Engineering
 Location  : Nairobi, Kenya
-Status    : Available for Internship
-Focus     : Full-Stack Development → Application Security
+Status    : Open to opportunities
+Focus     : Full-Stack Development → Backend
 ```
 
 <h3 align="center">
-Software Engineering Student • Full-Stack Developer • Building Secure Software
+Building ideas into real products.
 </h3>
 
 <p align="center">
@@ -27,13 +27,16 @@ Software Engineering Student • Full-Stack Developer • Building Secure Softwa
 
 ❯ whoami
 
-Third-Year Software Engineering Student @ USIU-Africa
+Third-year Software Engineering student @ USIU-Africa.
 
-• Building modern full-stack applications
+I enjoy taking an idea, figuring out how it should work, and then actually building it.
 
-• Exploring Application Security & DevSecOps
+Building full-stack web and mobile applications
+Most at home working with Python, Django, APIs, and backend logic
+Always trying to understand what's happening behind the code, not just make it work
+Open to Software Engineering, Full-Stack, and Backend opportunities
 
-• Based in Nairobi, Kenya
+A lot of what I know has come from building things, getting stuck, figuring out why, and trying again.
 
 
 
@@ -48,30 +51,28 @@ Languages
 ├── JavaScript
 └── SQL
 
+Backend
+├── Django
+├── Django REST Framework
+├── REST APIs
+└── MySQL
+
 Frontend
 ├── React
 ├── HTML5
 ├── CSS3
 └── Tailwind CSS
 
-Backend
-├── Django
-├── REST APIs
-└── MySQL
+Mobile 
+└── React Native / Expo
 
 Tools
 ├── Git
 ├── GitHub
 ├── VS Code
 ├── Android Studio
-└── IntelliJ IDEA
+└── Postman
 
-Currently Exploring
-├── Linux
-├── Docker
-├── GitHub Actions
-├── OWASP Top 10
-└── DevSecOps
 ```
 
 
@@ -80,38 +81,55 @@ Currently Exploring
 ```bash
 ❯ projects
 
-01-javascript-amazon/
-02-secure-portfolio/
-03-xox-store/
-04-youtube-clone/
 ```
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-|  **JavaScript Amazon** | A feature-rich Amazon clone with cart management, checkout flow, order tracking, OOP concepts and testing. | JavaScript • HTML • CSS |
-|  **Secure Portfolio** | My modern React portfolio focused on clean UI, security mindset, and professional branding. *(Currently building)* | React • Vite • Tailwind |
-|  **XoX Store** | Website built for my own shoe business, bringing a real-world idea online. | HTML • CSS • JavaScript |
-| ▶ **YouTube Frontend Clone** | One of my earliest projects that sparked my frontend development journey. | HTML • CSS |
+|  **Sleep Health Predictor** | An end-to-end machine learning pipeline and Flask application for predicting sleep disorders from lifestyle and health data. | Python • Flask • Scikit-learn |
+|  **Car Fault Diagnosis Expert System** | A knowledge-based system that reasons over vehicle symptoms using facts and rules to diagnose potential faults. | Python |
+|  **Case-Based Reasoning System** | A CBR system implementing the Retrieve, Reuse, Revise and Retain cycle to reason from previous cases. | Python |
+| ▶ **Amazon E-Commerce** | An interactive e-commerce frontend with cart management, modular JavaScript and asynchronous data loading. | JavaScript • HTML • CSS |
 
 
+
+```bash
+❯ currently-building
+```
+```text
+Motii/
+└── Vehicle maintenance & intelligence platform
+    ├── mileage tracking
+    ├── service & maintenance intelligence
+    ├── vehicle health
+    ├── insurance
+    └── personal vehicle assistant
+
+status: actively building
+
+Motii is the biggest project I'm working on right now. It's pushing me deeper into backend development, API design, data modelling, application architecture, and the process of turning an idea into an actual product.
+```
+
+
+
+```bash
 
 ```bash
 ❯ philosophy
 ```
 ```text
-Software should solve real problems.
+Have an idea.
+Build it.
+Get stuck.
+Figure it out.
+Build some more.
 
-Good software is reliable.
-
-Great software is secure.
-
-Every project I build is another step toward creating software
-that people can trust.
+Every project I build is another step toward becoming a better engineer.
 ```
 
 
 
 ```bash
+
 ❯ contact --social
 
 GitHub      : github.com/TheeBaranga
