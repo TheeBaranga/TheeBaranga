@@ -24,8 +24,9 @@ Building ideas into real products.
 </p>
 
 
-
+```bash
 ❯ whoami
+```
 
 Third-year Software Engineering student @ USIU-Africa.
 
@@ -39,10 +40,11 @@ Open to Software Engineering, Full-Stack, and Backend opportunities
 A lot of what I know has come from building things, getting stuck, figuring out why, and trying again.
 
 
-
+```bash
+❯ skills
+```
 
 ```text
-❯ skills
 
 Languages
 ├── Java
@@ -88,13 +90,14 @@ Tools
 |  **Sleep Health Predictor** | An end-to-end machine learning pipeline and Flask application for predicting sleep disorders from lifestyle and health data. | Python • Flask • Scikit-learn |
 |  **Car Fault Diagnosis Expert System** | A knowledge-based system that reasons over vehicle symptoms using facts and rules to diagnose potential faults. | Python |
 |  **Case-Based Reasoning System** | A CBR system implementing the Retrieve, Reuse, Revise and Retain cycle to reason from previous cases. | Python |
-| ▶ **Amazon E-Commerce** | An interactive e-commerce frontend with cart management, modular JavaScript and asynchronous data loading. | JavaScript • HTML • CSS |
+|  **Amazon E-Commerce** | An interactive e-commerce frontend with cart management, modular JavaScript and asynchronous data loading. | JavaScript • HTML • CSS |
 
 
 
 ```bash
 ❯ currently-building
 ```
+
 ```text
 Motii/
 └── Vehicle maintenance & intelligence platform
@@ -111,7 +114,7 @@ Motii is the biggest project I'm working on right now. It's pushing me deeper in
 
 
 
-```bash
+
 
 ```bash
 ❯ philosophy
