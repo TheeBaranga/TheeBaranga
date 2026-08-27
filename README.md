@@ -10,12 +10,10 @@ Status    : Open to opportunities
 Focus     : Full-Stack Development → Backend
 ```
 
-<h3 align="center">
-Building ideas into real products.
-</h3>
+<h3 align="center">Building ideas into real products.</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=Building+Software+That+Lasts.;Exploring+Application+Security.;Future+DevSecOps+Engineer.;Always+Learning+Something+New."/>
+  Software Engineering student · Full-stack developer · Backend & product engineering
 </p>
 
 
