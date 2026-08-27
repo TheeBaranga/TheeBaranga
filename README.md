@@ -10,8 +10,6 @@ Status    : Open to opportunities
 Focus     : Full-Stack Development → Backend
 ```
 
-<h3 align="center">Building ideas into real products.</h3>
-
 <p align="center">
   <img
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=B74B32&center=true&vCenter=true&width=720&lines=Building+ideas+into+real+products.;Full-stack+development.+Backend+focus.;Learning+by+building."
