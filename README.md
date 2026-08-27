@@ -13,7 +13,10 @@ Focus     : Full-Stack Development → Backend
 <h3 align="center">Building ideas into real products.</h3>
 
 <p align="center">
-  Software Engineering student · Full-stack developer · Backend & product engineering
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=B74B32&center=true&vCenter=true&width=720&lines=Building+ideas+into+real+products.;Full-stack+development.+Backend+focus.;Currently+building+Motii.;Learning+by+building."
+    alt="Typing introduction"
+  />
 </p>
 
 
