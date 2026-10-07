@@ -1,142 +1,35 @@
+# Kalvin Baranga
 
-<h1 align="center">
-Hi 👋, I'm Kalvin Baranga
-</h1>
+Founder & CEO of **Danafair Technologies** · Software Engineering student at **USIU-Africa**
 
-```text
-OS        : Software Engineering
-Location  : Nairobi, Kenya
-Status    : Open to opportunities
-Focus     : Full-Stack Development → Backend
-```
+I build practical software around real business workflows, working across product design, web and mobile development, and deployment. Based in Nairobi, Kenya.
 
-<h3 align="center">
-Building ideas into real products.
-</h3>
+## Building Motii
 
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=Building+Software+That+Lasts.;Exploring+Application+Security.;Future+DevSecOps+Engineer.;Always+Learning+Something+New."/>
-</p>
+Motii helps garages manage vehicle jobs, repair updates, quotations, payments and collection. Customer conversations shape the product, with a focus on clear workflows and useful experiences on phones and computers.
 
+My work spans product decisions, full-stack development, interface refinement and deployment. I’m also developing Motii’s mobile experience for car owners.
 
-<p align="center">
+[Explore Motii](https://garage.motiiapp.co.ke/garage/) · [Portfolio](https://theebaranga.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/kalvinbaranga/)
 
-</p>
+## Selected projects
 
+| Project | What I built | Tools |
+| --- | --- | --- |
+| Sleep Health Predictor | A machine learning pipeline and Flask application exploring sleep disorder prediction from lifestyle and health data. | Python, Flask, Scikit-learn |
+| Car Fault Diagnosis Expert System | A rule-based system reasoning over vehicle symptoms and potential faults. | Python |
+| Case-Based Reasoning System | A system applying Retrieve, Reuse, Revise and Retain to learn from previous cases. | Python |
+| E-Commerce Frontend | A storefront with cart management and asynchronous product loading. | JavaScript, HTML, CSS |
 
-```bash
-❯ whoami
-```
+## Toolkit
 
-Third-year Software Engineering student @ USIU-Africa.
+- **Web & mobile:** React, React Native, Expo, HTML, CSS, Tailwind CSS
+- **Applications & data:** Python, Django, Django REST Framework, REST APIs, SQL, MySQL
+- **Languages:** JavaScript, Python, Java, C#
+- **Development:** Git, GitHub, VS Code, Android Studio, Postman
 
-I enjoy taking an idea, figuring out how it should work, and then actually building it.
+## Connect
 
-Building full-stack web and mobile applications
-Most at home working with Python, Django, APIs, and backend logic
-Always trying to understand what's happening behind the code, not just make it work
-Open to Software Engineering, Full-Stack, and Backend opportunities
+I welcome conversations with garage operators, founders and technology partners, as well as software engineering opportunities.
 
-A lot of what I know has come from building things, getting stuck, figuring out why, and trying again.
-
-
-```bash
-❯ skills
-```
-
-```text
-
-Languages
-├── Java
-├── C#
-├── Python
-├── JavaScript
-└── SQL
-
-Backend
-├── Django
-├── Django REST Framework
-├── REST APIs
-└── MySQL
-
-Frontend
-├── React
-├── HTML5
-├── CSS3
-└── Tailwind CSS
-
-Mobile 
-└── React Native / Expo
-
-Tools
-├── Git
-├── GitHub
-├── VS Code
-├── Android Studio
-└── Postman
-
-```
-
-
-
-
-```bash
-❯ projects
-
-```
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-|  **Sleep Health Predictor** | An end-to-end machine learning pipeline and Flask application for predicting sleep disorders from lifestyle and health data. | Python • Flask • Scikit-learn |
-|  **Car Fault Diagnosis Expert System** | A knowledge-based system that reasons over vehicle symptoms using facts and rules to diagnose potential faults. | Python |
-|  **Case-Based Reasoning System** | A CBR system implementing the Retrieve, Reuse, Revise and Retain cycle to reason from previous cases. | Python |
-|  **Amazon E-Commerce** | An interactive e-commerce frontend with cart management, modular JavaScript and asynchronous data loading. | JavaScript • HTML • CSS |
-
-
-
-```bash
-❯ currently-building
-```
-
-```text
-Motii/
-└── Vehicle maintenance & intelligence platform
-    ├── mileage tracking
-    ├── service & maintenance intelligence
-    ├── vehicle health
-    ├── insurance
-    └── personal vehicle assistant
-
-status: actively building
-
-Motii is the biggest project I'm working on right now. It's pushing me deeper into backend development, API design, data modelling, application architecture, and the process of turning an idea into an actual product.
-```
-
-
-
-
-
-```bash
-❯ philosophy
-```
-```text
-Have an idea.
-Build it.
-Get stuck.
-Figure it out.
-Build some more.
-
-Every project I build is another step toward becoming a better engineer.
-```
-
-
-
-```bash
-
-❯ contact --social
-
-GitHub      : github.com/TheeBaranga
-LinkedIn    : linkedin.com/in/kalvinbaranga
-Portfolio   :  https://theebaranga.github.io/secure-portfolio/
-Email       : kalvinkiprop@gmail.com
-```
+[LinkedIn](https://www.linkedin.com/in/kalvinbaranga/) · [Portfolio](https://theebaranga.github.io/portfolio/) · [Email](mailto:kalvinkiprop@gmail.com)
